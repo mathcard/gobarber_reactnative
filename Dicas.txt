@@ -1,0 +1,39 @@
+
+-- React Navigation
+yarn add @react-navigation/native
+yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
+
+
+Adicione na primeira linha do app
+import 'react-native-gesture-handler';
+
+
+yarn react-native link
+-- *** Reiniciar app *** --
+
+-- Estilos
+yarn add styled-components
+yarn add @types/styled-components -D
+
+
+yarn add react-native-vector-icons
+android/main/build.gradle
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+yarn add -D @types/react-native-vector-icons
+
+-- Unform
+yarn add @unform/core @unform/mobile
+
+-- Async Storage
+yarn add @react-native-community/async-storage
+Só funcionou com NPM
+npm install @react-native-community/async-storage
+
+
+
+Arquivo: build.gradle
+Row15 = classpath("com.android.tools.build:gradle:3.5.3")
+
+
+
